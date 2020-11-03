@@ -57,6 +57,7 @@ h2 {
 
 
 
+
 nav {
   height:80px;
   background-color: $nav-bg;
@@ -91,6 +92,11 @@ nav {
   }
 }
 
+
+
+
+
+
 //images
 img {
   padding: 3px;
@@ -107,7 +113,19 @@ img {
     margin: 1rem 0;
     padding: 10px;
   }
+
+  .to-top {
+    background-color: $h2;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 3px;
+    color:#fff;
+    margin: .5rem 0;
+  }
 }
+
+
+
 
 // footer
 .footer {
@@ -139,11 +157,7 @@ img {
         
       }
     }
-
-     
-    
   }
-  
 }
 
 @media only screen and (min-width: 600px) {

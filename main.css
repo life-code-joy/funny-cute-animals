@@ -108,6 +108,15 @@ body .about .photo-info {
   padding: 10px;
 }
 
+body .about .to-top {
+  background-color: #8686f8;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 3px;
+  color: #fff;
+  margin: .5rem 0;
+}
+
 body .footer {
   display: -webkit-box;
   display: -ms-flexbox;
